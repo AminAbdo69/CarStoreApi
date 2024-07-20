@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/admin.css" />
+    <title>Admin DashBoard</title>
+  </head>
+  <body>
+    <!-- <div class="checkboxs">
+        <div class="checkbox-wrapper-12">
+          <div class="cbx">
+            <input checked="" type="checkbox" id="cbx-12" unchecked> 
+            <label for="cbx-12"></label>
+            <svg fill="none" viewBox="0 0 15 14" height="14" width="15">
+              <path d="M2 8.36364L6.23077 12L13 2"></path>
+            </svg>
+          </div>
+          
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="goo-12">
+                <feGaussianBlur result="blur" stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+                <feColorMatrix result="goo-12" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" mode="matrix" in="blur"></feColorMatrix>
+                <feBlend in2="goo-12" in="SourceGraphic"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div class="checkbox-wrapper-12">
+          <div class="cbx">
+            <input checked="" type="checkbox" id="cbx-12" checked> 
+            <label for="cbx-12"></label>
+            <svg fill="none" viewBox="0 0 15 14" height="14" width="15">
+              <path d="M2 8.36364L6.23077 12L13 2"></path>
+            </svg>
+          </div>
+          
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="goo-12">
+                <feGaussianBlur result="blur" stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+                <feColorMatrix result="goo-12" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" mode="matrix" in="blur"></feColorMatrix>
+                <feBlend in2="goo-12" in="SourceGraphic"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div class="checkbox-wrapper-12">
+          <div class="cbx">
+            <input checked="" type="checkbox" id="cbx-12" unchecked> 
+            <label for="cbx-12"></label>
+            <svg fill="none" viewBox="0 0 15 14" height="14" width="15">
+              <path d="M2 8.36364L6.23077 12L13 2"></path>
+            </svg>
+          </div>
+          
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="goo-12">
+                <feGaussianBlur result="blur" stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+                <feColorMatrix result="goo-12" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" mode="matrix" in="blur"></feColorMatrix>
+                <feBlend in2="goo-12" in="SourceGraphic"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </div> -->
+    <div class="container">
+      <input type="radio" id="showForm1" checked />
+      <label for="showForm1">Show Form 1</label>
+
+      <input type="radio" id="showForm2" />
+      <label for="showForm2">Show Form 2</label>
+
+      <input type="radio" id="showForm3" />
+      <label for="showForm2">Show Form 3</label>
+
+      <form id="form1" class="active" style="display: block">
+        <p>Add User</p>
+        <input
+          id="username"
+          name="Username"
+          type="text"
+          placeholder="Enter Username"
+        /><br />
+
+        <input id="login" type="submit" value="Add" /><br />
+
+        <span id="Error"></span>
+        <span id="output"></span>
+      </form>
+
+      <form id="form2" style="display: block">
+        <p>Add Car</p>
+        <input
+          id="name2"
+          name="Username"
+          type="text"
+          placeholder="Enter Car name"
+        /><br />
+        <input
+          id="model"
+          name="model"
+          type="number"
+          placeholder="Enter Car model"
+        /><br />
+
+        <input id="login" type="submit" value="Add" /><br />
+
+        <span id="Error"></span>
+        <span id="output"></span>
+      </form>
+
+      <form id="form3" style="display: block">
+        <p>Add Recommendation</p>
+        <input
+          id="carid3"
+          name="carid"
+          type="number"
+          placeholder="Car Id"
+        /><br />
+        <input
+          id="name3"
+          name="Username"
+          type="text"
+          placeholder="UserName"
+        /><br />
+
+        <input id="login" type="submit" value="Add" /><br />
+
+        <span id="Error"></span>
+        <span id="output"></span>
+      </form>
+
+      <div class="drops">
+        <div class="drop drop-1"></div>
+        <div class="drop drop-2"></div>
+        <div class="drop drop-3"></div>
+        <div class="drop drop-4"></div>
+        <div class="drop drop-5"></div>
+      </div>
+    </div>
+    <script src="/scripts/admin.js"></script>
+  </body>
+</html>

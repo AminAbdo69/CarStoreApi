@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 0,
+    "Name": "Tesla Luxury",
+    "Model": 2003
+  },
+  {
+    "Id": 1,
+    "Name": "Toyota Mass-Market",
+    "Model": 1937
+  },
+  {
+    "Id": 2,
+    "Name": "Ford Mass-Market",
+    "Model": 1903
+  },
+  {
+    "Id": 3,
+    "Name": "Honda Mass-Market",
+    "Model": 1948
+  },
+  {
+    "Id": 4,
+    "Name": "Audi Luxury ",
+    "Model": 1909
+  },
+  {
+    "Id": 5,
+    "Name": "Mercedes-Benz",
+    "Model": 0
+  },
+  {
+    "Id": 6,
+    "Name": "Volkswagen",
+    "Model": 2019
+  },
+  {
+    "Id": 7,
+    "Name": "ford3",
+    "Model": 2017
+  },
+  {
+    "Id": 8,
+    "Name": "ford",
+    "Model": 2018
+  },
+  {
+    "Id": 9,
+    "Name": "ff",
+    "Model": 2000
+  },
+  {
+    "Id": 10,
+    "Name": "fff",
+    "Model": 2000
+  },
+  {
+    "Id": 11,
+    "Name": "sara",
+    "Model": 2000
+  },
+  {
+    "Id": 12,
+    "Name": "ffff",
+    "Model": 2000
+  },
+  {
+    "Id": 13,
+    "Name": "gggg",
+    "Model": 2001
+  },
+  {
+    "Id": 14,
+    "Name": "oooo",
+    "Model": 2001
+  },
+  {
+    "Id": 15,
+    "Name": "omomom",
+    "Model": 2011
+  }
+]
